@@ -1,0 +1,64 @@
+#main{
+    color: red;
+   
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+[draggable="false"]{
+    color: rgb(116, 34, 48);
+    font-family: fantasy;
+}
+
+.note{
+    font-size: 20px;
+}
+[draggable="true"]{
+    height: 10;
+    width: 10;
+}
+[value="1"]{
+    font-family: monospace;
+    font-weight: bold;
+}
+
+[value="2"]{
+    font-family: monospace;
+    font-weight: none;
+}
+
+[draggable="one"]{
+    border: 10px solid black;
+    padding: 30px;
+    margin: 30px;
+    background-color: skyblue;
+}
+
+[draggable="two"]{
+    border: 10px solid black;
+    padding: 30px;
+    margin: 30px;
+    background-color: skyblue;
+}
+
+[draggable="three"]{
+    border: 10px solid black;
+    padding: 30px;
+    margin: 30px;
+    background-color: skyblue;
+}
+
+.text{
+    color: red;
+    text-align: center;
+    font-family: fantasy;
+}
+
+p, [value="1"], .note{
+    color: purple;
+    text-align: center;
+    font-size: 20px;
+}
+
